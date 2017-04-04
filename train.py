@@ -14,8 +14,8 @@ from tensorflow.python.lib.io import file_io
 # ==================================================
 
 # Data loading params
-tf.flags.DEFINE_float("dev_sample_percentage", .1, "Percentage of the training data to use for validation")
-tf.flags.DEFINE_string("path_to_json_file", "data/hibox_tasks_test.json", "Data source for the task and instant message data.")
+tf.flags.DEFINE_float("dev_sample_percentage", .01, "Percentage of the training data to use for validation")
+tf.flags.DEFINE_string("path_to_json_file", "data/hibox_tasks_train.json", "Data source for the task and instant message data.")
 
 # Data saving params
 tf.flags.DEFINE_string("job_dir", "data/checkpoints/", "directory path for saving summaries and checkpoints")
@@ -29,7 +29,7 @@ tf.flags.DEFINE_float("l2_reg_lambda", 10.0, "L2 regularization lambda (default:
 
 # Training parameters
 tf.flags.DEFINE_integer("batch_size", 100, "Batch Size (default: 64)")
-tf.flags.DEFINE_integer("num_epochs", 2, "Number of training epochs (default: 200)")
+tf.flags.DEFINE_integer("num_epochs", 50, "Number of training epochs (default: 200)")
 tf.flags.DEFINE_integer("evaluate_every", 200, "Evaluate model on dev set after this many steps (default: 100)")
 tf.flags.DEFINE_integer("checkpoint_every", 200, "Save model after this many steps (default: 100)")
 tf.flags.DEFINE_integer("num_checkpoints", 20, "Number of checkpoints to store (default: 5)")

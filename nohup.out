@@ -1,0 +1,245 @@
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE3 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE3 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+
+Parameters:
+ALLOW_SOFT_PLACEMENT=True
+BATCH_SIZE=100
+CHECKPOINT_EVERY=200
+DEV_SAMPLE_PERCENTAGE=0.01
+DROPOUT_KEEP_PROB=0.5
+EMBEDDING_DIM=128
+EVALUATE_EVERY=200
+FILTER_SIZES=3,4,5
+JOB_DIR=data/checkpoints/
+L2_REG_LAMBDA=10.0
+LOG_DEVICE_PLACEMENT=False
+NUM_CHECKPOINTS=20
+NUM_EPOCHS=50
+NUM_FILTERS=128
+PATH_TO_JSON_FILE=data/hibox_tasks_train.json
+
+Loading data...
+Vocabulary Size: 45804
+Train/Dev split: 49660/501
+Writing to /home/task-recognition/runs/1491310158
+
+2017-04-04T12:49:34.550621: step 1, loss 20.7894, acc 0.73
+2017-04-04T12:49:39.039218: step 2, loss 19.6757, acc 0.85
+2017-04-04T12:49:43.503490: step 3, loss 19.4595, acc 0.88
+2017-04-04T12:49:47.798608: step 4, loss 18.9706, acc 0.89
+2017-04-04T12:49:52.294111: step 5, loss 18.7716, acc 0.9
+2017-04-04T12:49:56.789729: step 6, loss 18.2696, acc 0.87
+2017-04-04T12:50:01.287522: step 7, loss 17.5697, acc 0.89
+2017-04-04T12:50:06.018575: step 8, loss 17.1623, acc 0.9
+2017-04-04T12:50:10.501079: step 9, loss 16.788, acc 0.88
+2017-04-04T12:50:14.792078: step 10, loss 16.2719, acc 0.9
+2017-04-04T12:50:19.291627: step 11, loss 15.8359, acc 0.89
+2017-04-04T12:50:23.800029: step 12, loss 15.6129, acc 0.89
+2017-04-04T12:50:28.514796: step 13, loss 15.2241, acc 0.88
+2017-04-04T12:50:33.010801: step 14, loss 14.5642, acc 0.9
+2017-04-04T12:50:37.515154: step 15, loss 14.3455, acc 0.91
+2017-04-04T12:50:42.019479: step 16, loss 14.0933, acc 0.84
+2017-04-04T12:50:46.503233: step 17, loss 13.8136, acc 0.82
+2017-04-04T12:50:50.795327: step 18, loss 13.4767, acc 0.84
+2017-04-04T12:50:55.517755: step 19, loss 13.1245, acc 0.83
+2017-04-04T12:50:59.799990: step 20, loss 12.5592, acc 0.86
+2017-04-04T12:51:04.504990: step 21, loss 12.5306, acc 0.82
+2017-04-04T12:51:09.016446: step 22, loss 12.0807, acc 0.86
+2017-04-04T12:51:13.299925: step 23, loss 11.8074, acc 0.85
+2017-04-04T12:51:17.784013: step 24, loss 11.3367, acc 0.88
+2017-04-04T12:51:22.270309: step 25, loss 11.0474, acc 0.88
+2017-04-04T12:51:26.791600: step 26, loss 10.8197, acc 0.84
+2017-04-04T12:51:31.288564: step 27, loss 10.3919, acc 0.87
+2017-04-04T12:51:35.801215: step 28, loss 10.177, acc 0.87
+2017-04-04T12:51:40.530102: step 29, loss 9.95228, acc 0.86
+2017-04-04T12:51:45.023476: step 30, loss 9.55266, acc 0.9
+2017-04-04T12:51:49.524811: step 31, loss 9.30054, acc 0.91
+2017-04-04T12:51:54.036224: step 32, loss 9.18556, acc 0.87
+2017-04-04T12:51:58.515872: step 33, loss 9.02439, acc 0.86
+2017-04-04T12:52:03.014210: step 34, loss 8.66564, acc 0.88
+2017-04-04T12:52:07.520269: step 35, loss 8.35722, acc 0.88
+2017-04-04T12:52:12.026951: step 36, loss 8.26778, acc 0.86
+2017-04-04T12:52:16.532743: step 37, loss 7.81031, acc 0.89
+2017-04-04T12:52:21.039373: step 38, loss 7.64885, acc 0.93
+2017-04-04T12:52:25.527846: step 39, loss 7.33723, acc 0.93
+2017-04-04T12:52:30.284965: step 40, loss 7.27945, acc 0.93
+2017-04-04T12:52:34.769927: step 41, loss 6.90618, acc 0.94
+2017-04-04T12:52:39.265221: step 42, loss 6.96321, acc 0.85
+2017-04-04T12:52:43.754457: step 43, loss 6.54703, acc 0.94
+2017-04-04T12:52:48.039277: step 44, loss 6.51881, acc 0.94
+2017-04-04T12:52:52.531380: step 45, loss 6.26279, acc 0.91
+2017-04-04T12:52:57.013187: step 46, loss 6.23111, acc 0.86
+2017-04-04T12:53:01.288035: step 47, loss 6.00721, acc 0.87
+2017-04-04T12:53:06.004099: step 48, loss 5.82563, acc 0.88
+2017-04-04T12:53:10.289944: step 49, loss 5.53891, acc 0.91
+2017-04-04T12:53:15.013079: step 50, loss 5.37648, acc 0.9
+2017-04-04T12:53:19.526808: step 51, loss 5.21627, acc 0.91
+2017-04-04T12:53:24.038592: step 52, loss 5.12684, acc 0.93
+2017-04-04T12:53:28.535629: step 53, loss 4.97491, acc 0.91
+2017-04-04T12:53:33.047653: step 54, loss 4.9194, acc 0.9
+2017-04-04T12:53:37.774171: step 55, loss 4.69222, acc 0.89
+2017-04-04T12:53:42.270549: step 56, loss 4.70311, acc 0.86
+2017-04-04T12:53:46.787602: step 57, loss 4.38415, acc 0.91
+2017-04-04T12:53:51.294494: step 58, loss 4.21601, acc 0.95
+2017-04-04T12:53:55.777264: step 59, loss 4.35349, acc 0.87
+2017-04-04T12:54:00.265931: step 60, loss 4.0675, acc 0.92
+2017-04-04T12:54:05.043511: step 61, loss 3.9138, acc 0.95
+2017-04-04T12:54:09.765546: step 62, loss 3.80705, acc 0.93
+2017-04-04T12:54:14.257403: step 63, loss 3.82447, acc 0.85
+2017-04-04T12:54:18.752337: step 64, loss 3.66375, acc 0.89
+2017-04-04T12:54:23.044439: step 65, loss 3.56956, acc 0.89
+2017-04-04T12:54:27.527012: step 66, loss 3.38721, acc 0.93
+2017-04-04T12:54:32.046518: step 67, loss 3.40694, acc 0.88
+2017-04-04T12:54:36.534172: step 68, loss 3.2082, acc 0.89
+2017-04-04T12:54:41.260719: step 69, loss 3.17861, acc 0.88
+2017-04-04T12:54:45.760958: step 70, loss 3.1669, acc 0.88
+2017-04-04T12:54:50.268766: step 71, loss 3.10775, acc 0.86
+2017-04-04T12:54:54.788424: step 72, loss 2.85029, acc 0.91
+2017-04-04T12:54:59.286146: step 73, loss 2.76367, acc 0.92
+2017-04-04T12:55:04.034595: step 74, loss 2.58866, acc 0.97
+2017-04-04T12:55:08.540943: step 75, loss 2.56141, acc 0.92
+2017-04-04T12:55:13.255321: step 76, loss 2.5997, acc 0.89
+2017-04-04T12:55:17.539784: step 77, loss 2.37961, acc 0.95
+2017-04-04T12:55:22.035683: step 78, loss 2.40302, acc 0.92
+2017-04-04T12:55:26.547571: step 79, loss 2.32256, acc 0.92
+2017-04-04T12:55:31.045192: step 80, loss 2.33566, acc 0.91
+2017-04-04T12:55:35.773267: step 81, loss 2.32752, acc 0.88
+2017-04-04T12:55:40.268454: step 82, loss 2.06703, acc 0.93
+2017-04-04T12:55:44.774512: step 83, loss 2.00092, acc 0.96
+2017-04-04T12:55:49.290508: step 84, loss 1.95935, acc 0.94
+2017-04-04T12:55:53.795267: step 85, loss 1.94978, acc 0.91
+2017-04-04T12:55:58.291941: step 86, loss 1.97314, acc 0.88
+2017-04-04T12:56:03.020194: step 87, loss 1.85299, acc 0.9
+2017-04-04T12:56:07.753401: step 88, loss 1.70704, acc 0.94
+2017-04-04T12:56:12.276381: step 89, loss 1.79852, acc 0.87
+2017-04-04T12:56:16.778993: step 90, loss 1.59641, acc 0.96
+2017-04-04T12:56:21.267390: step 91, loss 1.63836, acc 0.91
+2017-04-04T12:56:25.771635: step 92, loss 1.65005, acc 0.89
+2017-04-04T12:56:30.262522: step 93, loss 1.58091, acc 0.9
+2017-04-04T12:56:34.793144: step 94, loss 1.52312, acc 0.93
+2017-04-04T12:56:39.292962: step 95, loss 1.57938, acc 0.88
+2017-04-04T12:56:43.774594: step 96, loss 1.37823, acc 0.93
+2017-04-04T12:56:48.272108: step 97, loss 1.38231, acc 0.91
+2017-04-04T12:56:52.787578: step 98, loss 1.31055, acc 0.92
+2017-04-04T12:56:57.272450: step 99, loss 1.18879, acc 0.97
+2017-04-04T12:57:01.763210: step 100, loss 1.28118, acc 0.91
+2017-04-04T12:57:06.296127: step 101, loss 1.18036, acc 0.94
+2017-04-04T12:57:10.786297: step 102, loss 1.17739, acc 0.93
+2017-04-04T12:57:15.301082: step 103, loss 1.1916, acc 0.9
+2017-04-04T12:57:20.264875: step 104, loss 1.14946, acc 0.92
+2017-04-04T12:57:25.036339: step 105, loss 1.16908, acc 0.9
+2017-04-04T12:57:30.006491: step 106, loss 1.11839, acc 0.89
+2017-04-04T12:57:34.295618: step 107, loss 1.12385, acc 0.89
+2017-04-04T12:57:38.797280: step 108, loss 0.977538, acc 0.95
+2017-04-04T12:57:43.507465: step 109, loss 0.987205, acc 0.91
+2017-04-04T12:57:47.788139: step 110, loss 0.932115, acc 0.93
+2017-04-04T12:57:52.269415: step 111, loss 0.872072, acc 0.96
+2017-04-04T12:57:56.759961: step 112, loss 1.05293, acc 0.87
+2017-04-04T12:58:01.048957: step 113, loss 0.819551, acc 0.94
+2017-04-04T12:58:05.540640: step 114, loss 0.941553, acc 0.9
+2017-04-04T12:58:10.046522: step 115, loss 0.865943, acc 0.91
+2017-04-04T12:58:14.757305: step 116, loss 0.821601, acc 0.92
+2017-04-04T12:58:19.044621: step 117, loss 0.817811, acc 0.91
+2017-04-04T12:58:23.534949: step 118, loss 0.838308, acc 0.9
+2017-04-04T12:58:28.287946: step 119, loss 0.741803, acc 0.92
+2017-04-04T12:58:32.778531: step 120, loss 0.754917, acc 0.91
+2017-04-04T12:58:36.433676: step 121, loss 0.69144, acc 0.93
+2017-04-04T12:58:37.308758: step 122, loss 0.758699, acc 0.9
+2017-04-04T12:58:38.178374: step 123, loss 0.706773, acc 0.93
+2017-04-04T12:58:42.298734: step 124, loss 0.687189, acc 0.92
+2017-04-04T12:58:47.017926: step 125, loss 0.703529, acc 0.9
+2017-04-04T12:58:51.515026: step 126, loss 0.747326, acc 0.89
+2017-04-04T12:58:56.005649: step 127, loss 0.714903, acc 0.89
+2017-04-04T12:59:00.293123: step 128, loss 0.648947, acc 0.91
+2017-04-04T12:59:04.783324: step 129, loss 0.59736, acc 0.94
+2017-04-04T12:59:09.290039: step 130, loss 0.709187, acc 0.87
+2017-04-04T12:59:13.785113: step 131, loss 0.661221, acc 0.88
+2017-04-04T12:59:18.277478: step 132, loss 0.610433, acc 0.92
+2017-04-04T12:59:22.796415: step 133, loss 0.639007, acc 0.88
+2017-04-04T12:59:27.783528: step 134, loss 0.586789, acc 0.92
+2017-04-04T12:59:32.527751: step 135, loss 0.525489, acc 0.94
+2017-04-04T12:59:37.043935: step 136, loss 0.58733, acc 0.91
+2017-04-04T12:59:41.523381: step 137, loss 0.561326, acc 0.9
+2017-04-04T12:59:46.008667: step 138, loss 0.501359, acc 0.93
+2017-04-04T12:59:50.295839: step 139, loss 0.512381, acc 0.91
+2017-04-04T12:59:55.001524: step 140, loss 0.495001, acc 0.91
+2017-04-04T12:59:59.524556: step 141, loss 0.505888, acc 0.9
+2017-04-04T13:00:04.255879: step 142, loss 0.515411, acc 0.9
+2017-04-04T13:00:08.549432: step 143, loss 0.493336, acc 0.92
+2017-04-04T13:00:13.262553: step 144, loss 0.447754, acc 0.93
+2017-04-04T13:00:17.760807: step 145, loss 0.383744, acc 0.95
+2017-04-04T13:00:22.263717: step 146, loss 0.557061, acc 0.88
+2017-04-04T13:00:26.759878: step 147, loss 0.490559, acc 0.9
+2017-04-04T13:00:31.273374: step 148, loss 0.365754, acc 0.95
+2017-04-04T13:00:35.771008: step 149, loss 0.427488, acc 0.93
+2017-04-04T13:00:40.266786: step 150, loss 0.35641, acc 0.96
+2017-04-04T13:00:44.769944: step 151, loss 0.322717, acc 0.96
+2017-04-04T13:00:49.263287: step 152, loss 0.471899, acc 0.89
+2017-04-04T13:00:53.789066: step 153, loss 0.382092, acc 0.93
+2017-04-04T13:00:58.275588: step 154, loss 0.578063, acc 0.85
+2017-04-04T13:01:02.767331: step 155, loss 0.353839, acc 0.95
+2017-04-04T13:01:07.256373: step 156, loss 0.353073, acc 0.94
+2017-04-04T13:01:11.541636: step 157, loss 0.458145, acc 0.88
+2017-04-04T13:01:16.267555: step 158, loss 0.402434, acc 0.92
+2017-04-04T13:01:20.770837: step 159, loss 0.336617, acc 0.94
+2017-04-04T13:01:25.284487: step 160, loss 0.422458, acc 0.9
+2017-04-04T13:01:30.018442: step 161, loss 0.34705, acc 0.94
+2017-04-04T13:01:34.550507: step 162, loss 0.380271, acc 0.92
+2017-04-04T13:01:39.274719: step 163, loss 0.371527, acc 0.91
+2017-04-04T13:01:43.764024: step 164, loss 0.331998, acc 0.93
+2017-04-04T13:01:48.263916: step 165, loss 0.453266, acc 0.87
+2017-04-04T13:01:52.765321: step 166, loss 0.419847, acc 0.88
+2017-04-04T13:01:57.259229: step 167, loss 0.370324, acc 0.92
+2017-04-04T13:02:01.752919: step 168, loss 0.38269, acc 0.9
+2017-04-04T13:02:06.251754: step 169, loss 0.415465, acc 0.89
+2017-04-04T13:02:10.547019: step 170, loss 0.282685, acc 0.95
+2017-04-04T13:02:15.050927: step 171, loss 0.343976, acc 0.93
+2017-04-04T13:02:19.543437: step 172, loss 0.31707, acc 0.93
+2017-04-04T13:02:24.266359: step 173, loss 0.373044, acc 0.91
+2017-04-04T13:02:28.771560: step 174, loss 0.28332, acc 0.94
+2017-04-04T13:02:33.272427: step 175, loss 0.373919, acc 0.9
+2017-04-04T13:02:37.768753: step 176, loss 0.371613, acc 0.9
+2017-04-04T13:02:42.266235: step 177, loss 0.240443, acc 0.95
+2017-04-04T13:02:46.547438: step 178, loss 0.409775, acc 0.88
+2017-04-04T13:02:51.030037: step 179, loss 0.325168, acc 0.92
+2017-04-04T13:02:55.514702: step 180, loss 0.294105, acc 0.92
+2017-04-04T13:03:00.026852: step 181, loss 0.349462, acc 0.91
+2017-04-04T13:03:04.767745: step 182, loss 0.28389, acc 0.93
+2017-04-04T13:03:09.251757: step 183, loss 0.316911, acc 0.93
+2017-04-04T13:03:13.770727: step 184, loss 0.344412, acc 0.91
+2017-04-04T13:03:18.269862: step 185, loss 0.309459, acc 0.92
+2017-04-04T13:03:22.772527: step 186, loss 0.231048, acc 0.96
+2017-04-04T13:03:27.256875: step 187, loss 0.289166, acc 0.93
+2017-04-04T13:03:31.762023: step 188, loss 0.227827, acc 0.96
+2017-04-04T13:03:36.260061: step 189, loss 0.384241, acc 0.89
+2017-04-04T13:03:40.766436: step 190, loss 0.292624, acc 0.92
+2017-04-04T13:03:45.299284: step 191, loss 0.281749, acc 0.92
+2017-04-04T13:03:49.799324: step 192, loss 0.27193, acc 0.93
+2017-04-04T13:03:54.505709: step 193, loss 0.226752, acc 0.96
+2017-04-04T13:03:58.796747: step 194, loss 0.325111, acc 0.91
+2017-04-04T13:04:03.501548: step 195, loss 0.158594, acc 0.98
+2017-04-04T13:04:08.010854: step 196, loss 0.315608, acc 0.92
+2017-04-04T13:04:12.531117: step 197, loss 0.266, acc 0.94
+2017-04-04T13:04:17.028703: step 198, loss 0.435051, acc 0.87
+2017-04-04T13:04:21.543353: step 199, loss 0.276304, acc 0.93
+2017-04-04T13:04:26.035187: step 200, loss 0.315592, acc 0.91
+
+Evaluation:
+2017-04-04T13:04:30.758620: step 200, loss 0.308739, acc 0.912176
+
+Saved model checkpoint to /home/task-recognition/runs/1491310158/checkpoints/model-200
+
+Traceback (most recent call last):
+  File "train.py", line 213, in <module>
+    graph = tf.train.write_graph(sess)
+TypeError: write_graph() takes at least 3 arguments (1 given)

@@ -18,7 +18,7 @@ tf.flags.DEFINE_string("path_to_json_file", "data/hibox_tasks_test.json", "Data 
 
 # Eval Parameters
 tf.flags.DEFINE_integer("batch_size", 100, "Batch Size (default: 64)")
-tf.flags.DEFINE_string("checkpoint_dir", "runs/1487687409/checkpoints/", "Checkpoint directory from training run")
+tf.flags.DEFINE_string("checkpoint_dir", "runs/1491310158/checkpoints/", "Checkpoint directory from training run")
 tf.flags.DEFINE_boolean("eval_test_file", False, "Evaluate on a test file in json format")
 
 # Misc Parameters
@@ -50,7 +50,7 @@ else:
     y_test = [0, 1, 1, 1]
 
 # Map data into vocabulary
-vocab_path = os.path.join(FLAGS.checkpoint_dir, "..", "vocab")
+vocab_path = os.path.join(FLAGS.checkpoint_dir, "vocab/", "vocab")
 vocab_processor = learn.preprocessing.VocabularyProcessor.restore(vocab_path)
 x_test = np.array(list(vocab_processor.transform(x_raw)))
 

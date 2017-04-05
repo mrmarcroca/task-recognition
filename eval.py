@@ -19,7 +19,7 @@ tf.flags.DEFINE_string("path_to_json_file", "data/hibox_tasks_test.json", "Data 
 # Eval Parameters
 tf.flags.DEFINE_integer("batch_size", 100, "Batch Size (default: 64)")
 tf.flags.DEFINE_string("checkpoint_dir", "runs/1491310158/checkpoints/", "Checkpoint directory from training run")
-tf.flags.DEFINE_boolean("eval_test_file", False, "Evaluate on a test file in json format")
+tf.flags.DEFINE_boolean("eval_test_file", True, "Evaluate on a test file in json format")
 
 # Misc Parameters
 tf.flags.DEFINE_boolean("allow_soft_placement", True, "Allow device soft device placement")

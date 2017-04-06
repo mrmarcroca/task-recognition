@@ -43,6 +43,11 @@ vocab_path = os.path.join(FLAGS.checkpoint_dir, "vocab/", "vocab")
 vocab_processor = learn.preprocessing.VocabularyProcessor.restore(vocab_path)
 x_test = np.array(list(vocab_processor.transform(x_raw)))
 
+print("Total score for {} is {}".format(x_raw))
+
+print("What is x_raw {}" % (x_raw))
+
+
 print("\nEvaluating...\n")
 
 # Evaluation
@@ -88,4 +93,4 @@ predictions_human_readable = np.column_stack((np.array(x_raw), all_predictions, 
 out_path = os.path.join(FLAGS.checkpoint_dir, "..", "prediction.json")
 print("Saving evaluation to {0}".format(out_path))
 with open(out_path, 'w') as f:
-    csv.writer(f).writerows(predictions_human_readable)
+    json.dumps(f, predictions_human_readable)
